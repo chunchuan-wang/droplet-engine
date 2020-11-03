@@ -1,4 +1,4 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
+# 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 from cmd import Cmd
 import argparse
@@ -79,7 +79,7 @@ class TalosPrompt(Cmd):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser("Run bitcoin client")
-    parser.add_argument('--port', type=int, help='dir', default=18332, required=False)
+    parser.add_argument('--port', type=int, help='dir', default=18443, required=False)
     parser.add_argument('--server', type=str, help='server', default="127.0.0.1", required=False)
     parser.add_argument('--vbyte', type=int, help='server', default=111, required=False)
     parser.add_argument('--rpcuser', type=str, help='rpcuser', default='talos', required=False)
@@ -88,7 +88,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     TESTNET = args.vbyte == 111
-
+    print ("args.private_key: %s" % args.private_key)
     private_key = BitcoinVersionedPrivateKey(args.private_key)
     client = BitcoindClient(args.rpcuser, args.rpcpw, server=args.server, port=args.port, version_byte=args.vbyte)
     pclient = BitcoinPolicyCreator(client, args.private_key)

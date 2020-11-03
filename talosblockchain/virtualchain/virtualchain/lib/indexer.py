@@ -48,7 +48,7 @@ import simplejson
 
 from collections import defaultdict 
 
-import config
+from . import config
 import blockchain.transactions as transactions
 import blockchain.session as session
 

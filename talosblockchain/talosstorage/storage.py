@@ -1,9 +1,9 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
+# 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 import leveldb
 
-from checks import *
-from chunkdata import CloudChunk
+from .checks import *
+from .chunkdata import CloudChunk
 from talosstorage.util import *
 
 

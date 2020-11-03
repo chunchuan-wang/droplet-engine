@@ -1,0 +1,13 @@
+2020-11-03 20:20:05+0800 [-] Log opened.
+2020-11-03 20:20:05+0800 [-] /home/chris/src/droplet-engine/talosblockchain/talosdht/protocolsecurity.py:73: cryptography.utils.CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+2020-11-03 20:20:05+0800 [-] Site starting on 14001
+2020-11-03 20:20:05+0800 [-] Starting factory <twisted.web.server.Site instance at 0x7f50fa4aae60>
+2020-11-03 20:20:05+0800 [-] TalosSKademliaProtocol starting on 14001
+2020-11-03 20:20:05+0800 [-] Site starting on 14000
+2020-11-03 20:20:05+0800 [-] Starting factory <twisted.web.server.Site instance at 0x7f50fa2d60a0>
+2020-11-03 20:20:06+0800 [-] /home/chris/src/droplet-engine/talosblockchain/talosdht/protocolsecurity.py:59: cryptography.utils.CryptographyDeprecationWarning: signer and verifier have been deprecated. Please use sign and verify instead.
+2020-11-03 20:20:11+0800 [-] /home/chris/src/droplet-engine/talosblockchain/talosdht/protocolsecurity.py:77: cryptography.utils.CryptographyDeprecationWarning: Support for unsafe construction of public numbers from encoded data will be removed in a future version. Please use EllipticCurvePublicKey.from_encoded_point
+2020-11-03 20:20:11+0800 [-] /home/chris/src/droplet-engine/talosblockchain/talosdht/protocolsecurity.py:94: cryptography.utils.CryptographyDeprecationWarning: signer and verifier have been deprecated. Please use sign and verify instead.
+2020-11-03 20:20:11+0800 [TalosSKademliaProtocol (UDP)] 'Invalid signature on message'
+2020-11-03 20:30:05+0800 [TalosSecureDHTServer] [INFO] Save state to file ./dhtstorage/dhtstates/mainstate.state
+2020-11-03 20:30:05+0800 [TalosSecureDHTServer] [WARNING] No known neighbors, so not writing to cache.

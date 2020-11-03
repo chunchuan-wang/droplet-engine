@@ -1,4 +1,4 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
+# 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 import base64
 import hashlib

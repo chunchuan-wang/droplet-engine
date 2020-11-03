@@ -3,11 +3,7 @@
 LOCAL_PATH=$(cd -P -- "$(dirname -- "$0")" && pwd -P)
 CUR_PATH=$(pwd)
 
-if [ "$(uname)" == "Darwin" ]; then
-
-else
-    sudo apt-get install python-pip libffi-dev python-dev build-essential libssl-dev libffi-dev
-fi
+sudo apt-get install python-pip libffi-dev python-dev build-essential libssl-dev libffi-dev
 
 
 cd $LOCAL_PATH
@@ -34,11 +30,11 @@ cd ..
 sudo pip install pillow
 sudo pip install boto3
 sudo pip install flask
-sudo pip install kademlia
+sudo pip3 install kademlia
 sudo pip install requests
 sudo pip install cryptography
 sudo pip install cachetools
-sudo pip install leveldb
+sudo pip3 install leveldb
 sudo pip install --upgrade pyopenssl
 sudo pip install service_identity
 

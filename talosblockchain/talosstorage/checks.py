@@ -1,4 +1,4 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
+# 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 import base64
 import os
@@ -10,7 +10,7 @@ from pybitcoin import BitcoinPrivateKey, extract_bin_ecdsa_pubkey, extract_bin_b
     bin_hash160_to_address
 from pybitcoin import BitcoinPublicKey
 
-from chunkdata import *
+from .chunkdata import *
 
 """
 This file implements the checks of the chunks

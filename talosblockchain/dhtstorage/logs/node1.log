@@ -1,0 +1,12 @@
+2020-11-03 20:20:10+0800 [-] Log opened.
+2020-11-03 20:20:10+0800 [-] /home/chris/src/droplet-engine/talosblockchain/talosdht/protocolsecurity.py:73: cryptography.utils.CryptographyDeprecationWarning: encode_point has been deprecated on EllipticCurvePublicNumbers and will be removed in a future version. Please use EllipticCurvePublicKey.public_bytes to obtain both compressed and uncompressed point encoding.
+2020-11-03 20:20:10+0800 [-] Site starting on 14002
+2020-11-03 20:20:10+0800 [-] Starting factory <twisted.web.server.Site instance at 0x7f444b3f79b0>
+2020-11-03 20:20:10+0800 [-] TalosSKademliaProtocol starting on 14002
+2020-11-03 20:20:11+0800 [-] /home/chris/src/droplet-engine/talosblockchain/talosdht/protocolsecurity.py:59: cryptography.utils.CryptographyDeprecationWarning: signer and verifier have been deprecated. Please use sign and verify instead.
+2020-11-03 20:20:21+0800 [-] 'Did not received reply for msg id aXAUDigmBH4f4sDMYIm3L7pS3Oc= within 10 seconds'
+2020-11-03 20:20:21+0800 [NodeSpiderCrawl] [INFO] creating spider with peers: []
+2020-11-03 20:20:21+0800 [NodeSpiderCrawl] [INFO] crawling with nearest: ()
+2020-11-03 20:20:21+0800 [NodeSpiderCrawl] [INFO] last iteration same as current - checking all in list now
+2020-11-03 20:30:10+0800 [TalosSecureDHTServer] [INFO] Save state to file ./dhtstorage/dhtstates/nodestate1.state
+2020-11-03 20:30:10+0800 [TalosSecureDHTServer] [WARNING] No known neighbors, so not writing to cache.

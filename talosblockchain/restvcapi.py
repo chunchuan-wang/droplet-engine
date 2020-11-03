@@ -1,4 +1,3 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 import argparse
 
@@ -7,7 +6,7 @@ from talosvc.restapi import app, conf, VCSychronizer
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Run bitcoin client")
-    parser.add_argument('--port', type=int, help='dir', default=18332, required=False)
+    parser.add_argument('--port', type=int, help='dir', default=18443, required=False)
     parser.add_argument('--server', type=str, help='server', default="127.0.0.1", required=False)
     parser.add_argument('--rpcuser', type=str, help='rpcuser', default='talos', required=False)
     parser.add_argument('--rpcpw', type=str, help='rpcpw', default='talos', required=False)
@@ -20,6 +19,9 @@ if __name__ == "__main__":
     conf['bitcoind_passwd'] = args.rpcpw
     conf['bitcoind_server'] = args.server
     conf['bitcoind_p2p_port'] = args.p2pport
+    db = get_working_db()
+    #print ("%s" % db)
+    #print ("Running with conf %s " % conf)
     print get_working_db()
     print "Running with conf %s " % conf
     vc_sync = VCSychronizer(args.sync, config=conf)

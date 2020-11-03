@@ -1,4 +1,4 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
+# 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 import struct
 import time
@@ -23,7 +23,7 @@ def get_time_and_chunk(encoded):
 
 class TalosLevelDBDHTStorage(LevelDBStorage):
     implements(IStorage)
-
+    
     def __init__(self, db_dir):
         LevelDBStorage.__init__(self, db_dir)
 

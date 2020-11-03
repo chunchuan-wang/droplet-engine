@@ -1,4 +1,4 @@
-#© 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
+# 2017-2020, ETH Zurich, D-INFK, lubu@inf.ethz.ch
 
 import base64
 import os
@@ -36,7 +36,7 @@ def get_private_key(private_key):
 
 def get_default_talos_config():
     import talosvirtualchain
-    return {"bitcoind_port": 18332,
+    return {"bitcoind_port": 18443,
             "bitcoind_user": "talos",
             "bitcoind_passwd": "talos",
             "bitcoind_server": "127.0.0.1",
